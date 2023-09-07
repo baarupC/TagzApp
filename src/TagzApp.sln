@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagzApp.Web", "TagzApp.Web\TagzApp.Web.csproj", "{6D4AD329-54D8-489C-8AFF-BD88EE75891C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagzApp.Web", "TagzApp.Web\TagzApp.Web.csproj", "{6D4AD329-54D8-489C-8AFF-BD88EE75891C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagzApp.Common", "TagzApp.Common\TagzApp.Common.csproj", "{4CE140EF-5C01-463C-855D-EF8903B2DC20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagzApp.Common", "TagzApp.Common\TagzApp.Common.csproj", "{4CE140EF-5C01-463C-855D-EF8903B2DC20}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z. Test", "Z. Test", "{3A6613F8-AE82-4DB9-90FC-4DA8F240049A}"
 EndProject
@@ -14,13 +14,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Solution Items", "{00F93973-AF01-4F45-A75A-3502FC113641}"
 	ProjectSection(SolutionItems) = preProject
 		..\.editorconfig = ..\.editorconfig
+		Directory.build.props = Directory.build.props
 		..\..\LICENSE = ..\..\LICENSE
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagzApp.UnitTest", "TagzApp.UnitTest\TagzApp.UnitTest.csproj", "{66E82969-1F45-4075-A342-6502DC63BC44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagzApp.UnitTest", "TagzApp.UnitTest\TagzApp.UnitTest.csproj", "{66E82969-1F45-4075-A342-6502DC63BC44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagzApp.WebTest", "TagzApp.WebTest\TagzApp.WebTest.csproj", "{EB200A02-810E-4AFD-915E-E100C187D4F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagzApp.WebTest", "TagzApp.WebTest\TagzApp.WebTest.csproj", "{EB200A02-810E-4AFD-915E-E100C187D4F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagzApp.Providers.Mastodon", "TagzApp.Providers.Mastodon\TagzApp.Providers.Mastodon.csproj", "{88FEB053-F44F-44B4-A0E8-8DE28CB9D70A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +47,10 @@ Global
 		{EB200A02-810E-4AFD-915E-E100C187D4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB200A02-810E-4AFD-915E-E100C187D4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB200A02-810E-4AFD-915E-E100C187D4F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FEB053-F44F-44B4-A0E8-8DE28CB9D70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FEB053-F44F-44B4-A0E8-8DE28CB9D70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FEB053-F44F-44B4-A0E8-8DE28CB9D70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FEB053-F44F-44B4-A0E8-8DE28CB9D70A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +60,7 @@ Global
 		{4CE140EF-5C01-463C-855D-EF8903B2DC20} = {7AA481C6-5501-45CD-B539-E44C2B646EA1}
 		{66E82969-1F45-4075-A342-6502DC63BC44} = {3A6613F8-AE82-4DB9-90FC-4DA8F240049A}
 		{EB200A02-810E-4AFD-915E-E100C187D4F2} = {3A6613F8-AE82-4DB9-90FC-4DA8F240049A}
+		{88FEB053-F44F-44B4-A0E8-8DE28CB9D70A} = {7AA481C6-5501-45CD-B539-E44C2B646EA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {328F1BD4-B583-478B-8992-60101E809BF0}
