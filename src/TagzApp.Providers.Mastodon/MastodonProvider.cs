@@ -2,6 +2,9 @@
 
 internal class MastodonProvider : ISocialMediaProvider
 {
+
+
+
 	public string Id => "MASTODON";
 
 	public string DisplayName => "Mastodon";

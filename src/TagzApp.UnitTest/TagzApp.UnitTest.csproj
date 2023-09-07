@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.5.0" />
+  </ItemGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="..\TagzApp.Common\TagzApp.Common.csproj" />
+		<ProjectReference Include="..\TagzApp.Providers.Mastodon\TagzApp.Providers.Mastodon.csproj" />
+	</ItemGroup>
+
 </Project>
